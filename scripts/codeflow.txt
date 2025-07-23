@@ -1,0 +1,7 @@
+System Logs (/var/log/secure + /var/log/messages)
+        │
+        ▼
+ log_analysis.sh  ──▶  daily_report_YYYY-MM-DD.txt
+                                 │
+                                 ▼
+                      critical.sh ──▶ critical_YYYY-MM-DD.log
